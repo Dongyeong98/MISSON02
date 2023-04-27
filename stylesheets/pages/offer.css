@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
+.logo-box{
+  width: 1022px;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 176px;
+  height: 40px;
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+h2{
+  font-weight: 300;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-image: url('/assets/icon/shopping.svg');
+  float: left;
+}
+
+
+.propose-container{
+  width: 1022px;
+  height: 354px;
+  margin: 0 auto;
+}
+
+.propose{
+  width: 234px;
+  height: 30px;
+  margin-bottom: 24px;
+}
+
+.propose-title{
+  margin: 1px 36px 1px 30px;
+}
+
+.propose-section{
+  width: 1020px;
+  height: 270px;
+  display: flex;
+}
+
+.furniture-box,.reton-box, .drying-box,.boohgle-box,.deskset-box{
+  position: relative;
+  width: 200px;
+  height: 270px;
+  margin-right: 5px;
+  
+}
+
+.furniture-img,.reton-img{
+  padding: 14px 20px 0 20px;
+  
+}
+
+.text-box{
+  width: 172px;
+  height: 46x;
+  margin: 12px 14px  0 14px;
+}
+.text{
+  font-size: 14px;
+  margin-bottom: 12px;
+
+  
+}
+.star-box{
+  width: 117px;
+  height: 17px;
+  overflow: hidden;
+  float: left;
+}
+.star-box img{
+  position: relative;
+  top:-123.7px;
+}
+.star-box .star4{
+  position: relative;
+  top:-110px;
+}
+.star-box .star5{
+  position: relative;
+  top:-140px;
+}
+
+.review{
+  width: 45px;
+  height: 17px;
+  color: var(--color-gray-700);
+  font-size: 14px;
+  float: right;
+}
+.discount{
+  position: absolute;
+  width: 53px;
+  height: 30px;
+  border-radius: 0 0 4px 0;
+  background-color: var(--color-red-500);
+  color: var(--color-white);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container{
+  width: 172px;
+  height: 46px;
+  margin: 0 14px 0 14px;
+}
+.text-container-reton,.text-container-drying .text-container-boohgle,.text-container-deskset{
+  width: 172px;
+  height: 66px;
+  
+}
+.rocket{
+  margin: 0 0 4px 0;
+}
+.free-box{
+  margin-bottom: 4px;
+}
+.free{
+  font-size: 14px;
+  color: var(--color-gray-700);
+}
+
